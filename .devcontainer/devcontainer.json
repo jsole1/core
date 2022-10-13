@@ -14,6 +14,10 @@
     "esbenp.prettier-vscode",
     "GitHub.vscode-pull-request-github"
   ],
+  "mounts": [
+    // Custom configuration directory
+    "source=${localEnv:HOME}/gitProjects/iberpropano/custom_components/iberpropano,target=${containerWorkspaceFolder}/config/custom_components/iberpropano,type=bind"
+  ],
   // Please keep this file in sync with settings in home-assistant/.vscode/settings.default.json
   "settings": {
     "python.pythonPath": "/usr/local/bin/python",
